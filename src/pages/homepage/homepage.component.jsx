@@ -1,9 +1,8 @@
 import React from 'react'
-import MenuItem from '../../components/menu-item/menu-item.component'
 import Directory from '../../components/directory/directory.component'
 import './homepage.styles.scss'
 
-const HomepageComponent = () => {
+const HomePage = () => {
   return (
     <div className="homepage">
       <Directory />
@@ -11,4 +10,4 @@ const HomepageComponent = () => {
   )
 }
 
-export default HomepageComponent
+export default HomePage
